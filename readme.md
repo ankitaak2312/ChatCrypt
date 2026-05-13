@@ -2,41 +2,59 @@
 Client A
 
    ↓
+   
 Encrypt + Hash
 
    ↓
+   
 TCP Socket
 
    ↓
+
+   
 Server Routing
 
    ↓
+   
 Client B
 
    ↓
+   
 Integrity Verification
 
    ↓
+   
 Decrypt
 
    ↓
+   
 ML Analysis
 
    ↓
+   
 Moderation
 
 
 ## Project Structure
 ChatCrypt/
 │
+
 ├── server.cpp
+
 ├── client.cpp
+
 ├── ml_server.py
+
 ├── train_spam_model.py
+
 ├── spam_model.pkl
+
 ├── spam.csv
+
 │
+
 └── README.md
+
 
 ## Technologies Used
 Component	        Technology
