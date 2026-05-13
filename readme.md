@@ -166,6 +166,14 @@ Server routes WARN packet
 A receives:
 "You received a warning"
 
+<img width="840" height="540" alt="image" src="https://github.com/user-attachments/assets/452906f7-7c76-483f-952a-5f16e936a65a" />
+<img width="800" height="452" alt="image" src="https://github.com/user-attachments/assets/bd2af9c0-206d-42d1-9726-c01ebb6d3f3c" />
+
+<img width="767" height="478" alt="image" src="https://github.com/user-attachments/assets/b976c0c2-aa70-483a-b8fc-c301e0af4c31" />
+
+
+<img width="727" height="475" alt="image" src="https://github.com/user-attachments/assets/d9928656-a0ce-4d74-a3ab-f20058dfac32" />
+
 
 
 
