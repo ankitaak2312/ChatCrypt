@@ -57,14 +57,14 @@ ChatCrypt/
 
 
 ## Technologies Used
-Component	        Technology
-Networking	        C++ TCP Sockets
-Multiplexing        select()
-ML Backend	        Python
-Sentiment Analysis	HuggingFace Transformers
-Spam Detection	    Scikit-learn
-Cryptography	      XOR
-Encoding            HEX
+
+Networking	   -     C++ TCP Sockets
+Multiplexing    -    select()
+ML Backend	    -    Python
+Sentiment Analysis -	HuggingFace Transformers
+Spam Detection	 -   Scikit-learn
+Cryptography	 -     XOR
+Encoding       -     HEX
 ## Protocol Design
 JOIN  : JOIN|username|room
 
@@ -128,7 +128,7 @@ Dataset:
 
 ## Moderation System
 If a message is:
--spam AND
+-spam or
 -negative
 then the sender loses reputation points.
 Score Action
