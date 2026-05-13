@@ -1,21 +1,30 @@
 ## Project Architecture
 Client A
+
    ↓
 Encrypt + Hash
+
    ↓
 TCP Socket
+
    ↓
 Server Routing
+
    ↓
 Client B
+
    ↓
 Integrity Verification
+
    ↓
 Decrypt
+
    ↓
 ML Analysis
+
    ↓
 Moderation
+
 
 ## Project Structure
 ChatCrypt/
@@ -36,7 +45,7 @@ Multiplexing        select()
 ML Backend	        Python
 Sentiment Analysis	HuggingFace Transformers
 Spam Detection	    Scikit-learn
-Cryptography	    XOR
+Cryptography	      XOR
 Encoding            HEX
 ## Protocol Design
 JOIN  : JOIN|username|room
@@ -52,16 +61,22 @@ REPORT|reporter|target|reason
 
 ## Security Design
 plaintext
+
    ↓
 XOR Encryption
+
    ↓
 HEX Encoding
+
    ↓
 send via TCP
+
    ↓
 HEX Decoding
+
    ↓
 XOR Decryption
+
 
 ## Privacy Model
 
