@@ -58,14 +58,22 @@ ChatCrypt/
 
 ## Technologies Used
 
-Networking	   -     C++ TCP Sockets
-Multiplexing    -    select()
-ML Backend	    -    Python
-Sentiment Analysis -	HuggingFace Transformers
-Spam Detection	 -   Scikit-learn
-Cryptography	 -     XOR
-Encoding       -     HEX
+Networking	   -     C++ TCP Sockets,
+
+Multiplexing    -    select(),
+
+ML Backend	    -    Python,
+
+Sentiment Analysis -	HuggingFace Transformers,
+
+Spam Detection	 -   Scikit-learn,
+
+Cryptography	 -     XOR,
+
+Encoding       -     HEX,
+
 ## Protocol Design
+
 JOIN  : JOIN|username|room
 
 Group Message :
